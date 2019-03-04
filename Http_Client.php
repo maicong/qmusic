@@ -499,7 +499,7 @@ class Http_Client
      */
     public function setContentType($contentType = 'text/html')
     {
-        header('Content-Type: ' . $contentType . '; charset=UFF-8', true);
+        header('Content-Type: ' . $contentType . '; charset=UTF-8', true);
     }
 
     /**
